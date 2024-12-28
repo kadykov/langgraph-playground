@@ -23,7 +23,8 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "charliermarsh.ruff",
-        "ms-python.isort"
+        "ms-python.isort",
+        "ms-python.mypy-type-checker"
       ]
     }
   }

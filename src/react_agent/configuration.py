@@ -23,8 +23,9 @@ class Configuration:
     )
 
     model: Annotated[str, {"__template_metadata__": {"kind": "llm"}}] = field(
-        # default="anthropic/claude-3-5-sonnet-20240620",
-        default="openai/gpt-4o-mini",
+        # default="anthropic/claude-3-5-sonnet-20241022",
+        default="openai/gpt-4o",
+        # default="fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
         metadata={
             "description": "The name of the language model to use for the agent's main interactions. "
             "Should be in the form: provider/model-name."
